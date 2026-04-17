@@ -1,124 +1,78 @@
 ---
 title: "Event 2"
-date: 2024-01-01
-weight: 1
+date: 2026-04-04
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# "Cloud Mastery 2026 #2 DevOps"
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Provide an overview of Kubernetes, Infrastructure as Code (IaC), and Elixir.
+- Provide a foundation for building, deploying, and operating systems on the cloud.
+- Connect theoretical knowledge with practical implementation through demos.
 
-### Speakers
+### Speaker Details & Presentation Topics
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+**1. Bao Huynh - Junior Cloud Native Developer - Endava Vietnam**
+* **Topic:** Kubernetes
+* **Key content:** The Kubernetes session focused on solving container orchestration challenges, starting with an overview, architecture, and core system components. The presentation went deeper into important Kubernetes objects, how to work with manifests, and how to use `kubectl`. It also included a live demo, guidance on how to start learning Kubernetes, a structured learning path, and supporting tools such as Helm and K9S.
+
+**2. Thinh Nguyen - DevOps Engineer**
+* **Topic:** Infrastructure as Code with Terraform on AWS
+* **Key content:** The presentation focused on the concept of Infrastructure as Code (IaC) and its role in modern infrastructure management. Content included an overview of common IaC tools, an introduction to AWS CloudFormation, AWS CDK, and Terraform, along with a live demo of real infrastructure deployment on AWS.
+
+**3. Nguyen Ta Minh Triet - SAP Developer Intern, Bosch GSV**
+* **Topic:** Introduction to Elixir
+* **Key content:** Covered core Elixir fundamentals, concurrent programming, and the OTP mechanism for fault tolerance. The session also discussed applying Elixir in DevOps pipelines, with live demos and practical examples.
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### 1. Kubernetes in practice
+- Analyze challenges in container orchestration.
+- Understand Kubernetes architecture and core components.
+- Work with Kubernetes objects, manifests, and `kubectl`.
+- Observe a real deployment demo.
+- Get guidance on how to start and learn Kubernetes effectively.
+- Get familiar with supporting tools such as Helm and K9S.
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+#### 2. Infrastructure as Code (IaC) on AWS
+- Understand what Infrastructure as Code is and its role in DevOps.
+- Compare common IaC tools.
+- Learn AWS CloudFormation, AWS CDK, and Terraform.
+- Observe an infrastructure deployment demo using Terraform.
 
-#### Transitioning to modern application architecture – Microservices
-
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
-
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
-
-#### Domain-Driven Design (DDD)
-
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
-
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
-
-### Key Takeaways
-
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+#### 3. Elixir and high-load systems
+- Understand core Elixir fundamentals.
+- Learn concurrent programming concepts in Elixir.
+- Explore OTP and how to build fault-tolerant systems.
+- Apply Elixir in DevOps pipelines.
+- Observe demos and practical examples.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+- Participating in the event helped strengthen my foundation in Cloud, DevOps, and modern Backend development.
 
 #### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+- Better understood the practical mindset for system design and operations.
+- Learned a more structured approach to adopting technology.
 
 #### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+- Directly observed demos on Kubernetes, Terraform, and Elixir.
+- Understood how these technologies work together in a complete system.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+#### Applying modern tools
+- Learned how to use Kubernetes for container management.
+- Applied IaC concepts to automate infrastructure.
+- Visualized how Elixir can be used in systems requiring high concurrency.
 
 #### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+- Had opportunities to exchange ideas with experienced professionals.
+- Gained more perspectives on system and product development.
 
 #### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+- Technology choices should be based on real-world problems and requirements.
+- Automation and scalability are core factors in modern systems.
+- Using the right combination of tools helps build effective and sustainable systems.
